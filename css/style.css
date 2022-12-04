@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100%;
+  background-image: url("../images/fondo_index.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar-brand {
+  color: white;
+}
+
+.principal {
+  top: 5px;
+  position: relative;
+  margin-left: 5%;
+}
+#contenido {
+  font-size: large;
+  position: relative;
+  top: 10px;
+  margin-left: 20%;
+}
+.card {
+  width: 18rem;
+  height: 25rem;
+}
+.input {
+  width: 15rem;
+}
+.disabled {
+  display: none;
+}
+.monedavacia {
+  height: 8rem;
+}

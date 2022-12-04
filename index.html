@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mdp Divisas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./pages/favoritos.html">Favoritos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav-item">
+                            <button id="todos" class="boton-menu boton-categoria  nav-link"><i
+                                    class="bi bi-hand-index-thumb-fill"></i> Todas las monedas</button>
+                        </li>
+                        <li class="nav-item">
+                            <button id="fisico" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Fisicos </button>
+                        </li>
+                        <li class="nav-item">
+                            <button id="crypto" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Crypto </button>
+                        </li>
+                        <li class="nav-item">
+                            <button id="metales" class="boton-menu boton-categoria"><i
+                                    class="bi bi-hand-index-thumb"></i>Metales </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <section class="m-5">
+                <div id="contenedor-monedas" class="card-group contenedor-monedas">
+
+                </div>
+
+
+            </section>
+        </section>
+
+    </main>
+    <script src="./js/api.js"></script>
+    <script src="./js/funciones.js"></script>
+    <script src=" ./js/main.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
