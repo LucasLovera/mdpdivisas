@@ -102,7 +102,7 @@ fetch("https://api.bluelytics.com.ar/v2/latest")
                 div.innerHTML = `
             <div class="card-group w-50 mb-2">
             <div class="card">
-                <img src="${monedas.imagen}" class="card-img-top w-75 alt="...">
+                <img src="${monedas.imagen}" class="card-img-top w-75" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">${monedas.nombre}</h5>
                     <p class="card-text">Valor promedio </p>
@@ -114,7 +114,7 @@ fetch("https://api.bluelytics.com.ar/v2/latest")
                         <button class="moneda-agregar btn btn-secondary" id="${monedas.nombre}">Favoritos</button>
                         <button class="btn btn-secondary boton mt-1" id="${monedas.radio}" >Convertir</button>
                     </div>
-                    <div class="form-floating mt-1 w-100">
+                    <div class="form-floating mt-1">
     
                     <input type="number" class="form-control input w-100" id="${monedas.input}"
                         placeholder="Leave a comment here"></input>
